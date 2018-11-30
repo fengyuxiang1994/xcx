@@ -1,0 +1,117 @@
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+<view class='home-page' style='margin-top: {{height}}px'>
+</view>
+<view class='view-page'>
+  <view class='page-content' style='height:calc(100vh - {{navH}}px);'>
+    <!--这里放你的内容-->
+    <view class='fcolumnntainer'>
+      <view class='ffd'>
+        <view class='hhee' wx:for="{{guanzhuInfo}}" wx:key="key" wx:for-item='item'>
+          <view class='er'></view>
+          <view class='yi'>
+            <view class='l'>
+              <view class='frowcontainer'>
+                <image class='gutximg' src='{{item.r_image}}'></image>
+                <view class='fcolumnntainer errpx shm'>
+                  <text class='ftex'>{{item.home_uaer_name}}</text>
+                  <text class='xstext'>2小时前</text>
+                </view>
+              </view>
+            </view>
+            <view class='r yizh' bindtap='showfx' data-idd='{{item.id}}' data-hname='{{item.home_uaer_name}}' data-rimg="{{item.r_image}}" data-img="{{item.image}}" data-dec='{{item.description}}'>
+              <image class='yuan' src='/images/follow/yuan.png'></image>
+            </view>
+          </view>
+          <view class='san'>
+            <view class='ztkg'>
+              <text class="hs">{{item.description}} </text>
+              <text class="hss">
+             <!-- <text>#美食# </text>
+              <text>@阅读</text> -->
+              </text>
+            </view>
+          </view>
+          <view class='eer'>
+            <image class='dw' wx:for="{{item.image}}" wx:key='key' wx:for-item="ite" src='{{ite}}'></image>
+
+          </view>
+          <view class='textcity' bindtap='get_profit' data-longitude='{{item.ypoint}}' data-address='{{item.address}}' data-name='{{item.addressname}}' data-latitude='{{item.xpoint}}' data-id="{{item.id}}">{{item.city}}•{{item.addressname}}</view>
+          <view class='xiaotiao2'></view>
+          <!-- {{hasChange}} -->
+          <view class='shiyi frowcontainer'>
+            <image class='dzdx ' src="{{item.hasChange? '/images/follow/gd-img.png': '/images/follow/gd.png'}}" catchtap="onPostTap" data-dzid="{{item.id}}" data-indexx="{{index}}"></image>
+            <text class='szjk erh'> {{item.user_praise}} </text>
+            <image class='dzdx' src='/images/follow/gpl-img.png' bindtap='goto_detail' data-userhid='{{item.user_id}}' data-id='{{item.id}}' data-shu='{{item.user_comment}}'></image>
+            <text class='szjk erh'> {{item.user_comment}} </text>
+            <!-- <image class='dzdx' src='/images/follow/gsc-img.png'></image> -->
+            <image class='dzdx ' src="{{item.hasChangesc? '/images/follow/gsc-img.png': '/images/follow/gsc.png'}}" catchtap="onPostTapc" data-dzid="{{item.id}}" data-indexx="{{index}}"></image>
+            <text class='szjk'> {{item.user_collection}} </text>
+          </view>
+        </view>
+      </view>
+
+
+      <view class='defx' wx:if='{{show_fenxiang}}'>
+        <view class='defxjd'>
+          <view class='deziti'>
+            分享到
+          </view>
+          <view class='frowcontainer dezimg'>
+            <view class='ss'>
+              <button class='buttonn' bindtap='share_open' open-type="share">
+                <image class='imdedx' src='/images/hnr/hxq/wxdup.png'></image>
+              </button>
+              <view class='imgzit'>微信好友</view>
+            </view>
+            <view class='ss'>
+              <button class='buttonn' bindtap='share'>
+                <image class='imdedx' src='/images/hnr/hxq/hb.png'></image>
+              </button>
+              <view class='imgzit'>生成海报</view>
+            </view>
+            <view class='ss'>
+              <button class='buttonn' bindtap='chshare'>
+                <image class='imdedx' src='/images/hnr/hxq/ct.png'></image>
+              </button>
+              <view class='imgzit'>生成长图</view>
+            </view>
+          </view>
+          <view class='quxtop'>
+            <view class='plxt'></view>
+            <view class='qux' bindtap='showfxqx'>
+              取消
+            </view>
+          </view>
+        </view>
+      </view>
+
+    </view>
+
+
+    <!-- <view class='da' wx:if="{{dishi}}">
+      <image class='qxx r' src='/images/icon/qxx.png' bindtap='onQx'></image>
+      <view class='yngdan'>
+        <view class='y-top'>
+          <view class='sanshi'>添加到我的小程序</view>
+        </view>
+        <view class='hye'>
+          <view class='wo'>1.点击右上角“
+            <image class='imgsd' src='/images/icon/sd.png'></image>”按钮，点击“添加到我的小程序”</view>
+        </view>
+        <view class='imwss'>
+          <image class='imgzf' src='/images/icon/xlo.png'></image>
+        </view>
+        <view class='hyer'>
+          <view class='wo'>2.即可通过微信首页下拉任务栏，随时快速进入晒一下</view>
+        </view>
+
+        <view class='imw'>
+          <image class='imgx' src='/images/icon/tj.png'></image>
+        </view>
+        <view class='dds' bindtap='onWo'>
+          <view class='hyu'>我知道了</view>
+        </view>
+      </view>
+    </view> -->
+  </view>
+</view>

@@ -1,0 +1,32 @@
+/* pages/my/setup/hh/hh.wxss */
+ 
+.bc{
+background-color: #ffff00; 
+font-size: 16px;
+}
+.bc_2{
+background-color: #ffffff; 
+margin: 10px;
+}
+.bc_text{
+padding:40px;
+}
+.flex_item{
+width: 60px;
+height: 60px;
+}
+.green{
+background-color: #00ff00; 
+}
+.red{
+ background-color:#ff0000; 
+}
+.blue{
+/* ”> #0000ff; */
+background-color: #0000ff;
+}
+
+hh.{
+  width: 740rpx;
+  margin: 0 auto;
+}

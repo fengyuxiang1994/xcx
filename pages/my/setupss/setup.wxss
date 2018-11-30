@@ -1,0 +1,147 @@
+/* pages/my/setup/setup.wxss */
+
+page {
+  width: 100%;
+  background-color: #f1f4f6;
+}
+
+.infocolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.inforow {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoxitiao {
+  height: 1rpx;
+  width: 100%;
+  background-color: #ccc;
+  /* background-color: red; */
+}
+
+.infodxt {
+  height: 20rpx;
+  width: 100%;
+  background-color: #f1f4f6;
+  /* background-color: rebeccapurple; */
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* 主体 */
+
+.hh {
+  width: 690rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  /* background-color: red; */
+  height: 48rpx;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+
+.jtimgdx {
+  width: 14rpx;
+  height: 24rpx;
+}
+
+.zantid {
+  font-size: 32rpx;
+  color: #333;
+}
+
+.ssimg {
+  padding-top: 10rpx;
+}
+
+.topershi {
+  margin-top: 20rpx;
+}
+
+.whole {
+  width: 100%;
+  background-color: #fff;
+}
+
+/*YYYYYYYYY */
+
+.defx {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.defxjd {
+  width: 100%;
+  height: auto;
+  border-radius: 42rpx 42rpx 0rpx 0rpx;
+  background-color: #e5e5e5;
+}
+
+.deziti {
+  padding-top: 45rpx;
+  /* margin-left: 40rpx;
+  margin-right: 40rpx; */
+  text-align: center;
+  width: 100%;
+  height: auto;
+  font-size: 36rpx;
+  color: #0e0d0d;
+}
+
+.dezimg {
+  padding-top: 45rpx;
+  /* padding-left: 0rpx;
+  padding-right: 63.6rpx; */
+  margin-left: 18rpx;
+  margin-right: 18rpx;
+  height: auto;
+}
+
+.ss {
+  /* padding-left: 63.6rpx; */
+  margin-left: 122rpx;
+  margin-right: 122rpx;
+
+}
+
+.imdedx {
+  width: 108rpx;
+  height: 108rpx;
+}
+
+.imgzit {
+  font-size: 20rpx;
+  color: #333;
+  width: 108rpx;
+  height: auto;
+  text-align: center;
+  padding-top: 20rpx;
+}
+
+.quxtop {
+  margin-top: 50rpx;
+}
+
+.qux {
+  width: 100%;
+  height: 98rpx;
+  font-size: 36rpx;
+  color: #333;
+  background-color: #fff;
+  line-height: 98rpx;
+  text-align: center;
+  border: 0rpx solid #f9f9f9;
+}
+
+/* YYYYYYYYYYY */

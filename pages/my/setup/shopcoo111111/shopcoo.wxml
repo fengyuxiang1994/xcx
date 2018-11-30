@@ -1,0 +1,62 @@
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+<view class='home-page' style='margin-top: {{height}}px'> </view>
+
+<view class='infocolumn'>
+  <view class='infoxitiao'></view>
+  <view class='infodxt'></view>
+  <view class='infoxitiao'></view>
+
+
+  <view class='whoeell'>
+    <view class='dx left'>
+      <image class='imgdx' src='/images/my/shop.png'></image>
+    </view>
+
+    <view class='mtop right'>
+      <view class='infocolumn'>
+        <text class='ztdx'>SOFTREE索菲特丽冰淇淋</text>
+        <view class='ztdxer ptop'>点对点</view>
+        <view class='ztdxsan left ptopp'>
+          <image class='imger left' src='/images/my/wshop.png'></image>
+          杭州展览东路武林广场39号
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='infoxitiao mmtop'></view>
+
+  <view class='whoeell'>
+    <view class='dx left'>
+      <image class='imgdx' src='/images/my/shop.png'></image>
+    </view>
+
+    <view class='mtop right'>
+      <view class='infocolumn'>
+        <text class='ztdx'>SOFTREE索菲特丽冰淇淋</text>
+        <view class='ztdxer ptop'>点对点</view>
+        <view class='ztdxsan left ptopp'>
+          <image class='imger left' src='/images/my/wshop.png'></image>
+          杭州展览东路武林广场39号
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='infoxitiao mmtop'></view>
+  <view class='whoeell'>
+    <view class='dx left'>
+      <image class='imgdx' src='/images/my/shop.png'></image>
+    </view>
+
+    <view class='mtop right'>
+      <view class='infocolumn'>
+        <text class='ztdx'>SOFTREE索菲特丽冰淇淋</text>
+        <view class='ztdxer ptop'>点对点</view>
+        <view class='ztdxsan left ptopp'>
+          <image class='imger left' src='/images/my/wshop.png'></image>
+          杭州展览东路武林广场39号
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='infoxitiao mmtop'></view>
+</view>

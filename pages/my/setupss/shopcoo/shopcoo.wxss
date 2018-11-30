@@ -1,0 +1,106 @@
+/* pages/my/setup/shopcoo/shopcoo.wxss */
+
+page {
+  width: 100%;
+}
+
+.infocolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.inforow {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoxitiao {
+  height: 1rpx;
+  width: 100%;
+  background-color: #cccccc;
+  /* background-color: red; */
+}
+
+.infodxt {
+  height: 20rpx;
+  width: 100%;
+  background-color: #f1f4f6;
+  /* background-color: rebeccapurple; */
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* 主体 */
+
+.whoeell {
+  width: 690rpx;
+  height: 140rpx;
+  background-color: #fff;
+  margin-left: 60rpx;
+  margin-right: 20rpx;
+}
+
+.dx {
+  height: 140rpx;
+  width: 140rpx;
+  margin-top: 20rpx;
+}
+
+.imgdx {
+  width: 140rpx;
+  height: 140rpx;
+  margin-top: 5rpx;
+}
+
+.mtop {
+  margin-top: 10rpx;
+  background-color: #fff;
+  height: 140rpx;
+  width: 530rpx;
+  margin-left: 20rpx;
+}
+
+.ztdx {
+  font-size: 36rpx;
+  color: #000;
+  height: 48rpx;
+  background-color: #fff;
+}
+
+.ztdxer {
+  font-size: 24rpx;
+  color: #999;
+  height: 32rpx;
+  background-color: #fff;
+}
+
+.ztdxsan {
+  font-size: 24rpx;
+  color: #e61673;
+  height: 32rpx;
+  background-color: #fff;
+}
+
+.imger {
+  height: 24rpx;
+  width: 19rpx;
+  padding-top: 10rpx;
+  background-color: #fff;
+  padding-right: 10rpx;
+}
+.ptop{
+  padding-top: 20rpx;
+}
+.ptopp{
+  padding-top: 10rpx;
+}
+
+.mmtop{
+  margin-top: 50rpx;
+}

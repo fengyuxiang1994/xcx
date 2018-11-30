@@ -1,0 +1,483 @@
+/* pages/follow/follow.wxss */
+
+page {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.view-page {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  position: absolute;
+  overflow: hidden;
+}
+
+.page-content {
+  box-sizing: border-box;
+  position: relative;
+  overflow-y: auto;
+}
+
+.fcolumnntainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.frowcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.fhh {
+  height: 60rpx;
+  width: 100%;
+  position: absolute;
+  top: 10;
+  left: 0;
+  background-color: #fff;
+}
+
+.fss {
+  width: 690rpx;
+  height: 60rpx;
+  background-color: #f4f4f4;
+  border: 0px solid #f2f2f2f2;
+  border-radius: 32rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.hl {
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.fssrn {
+  font-size: 29rpx;
+  color: #999;
+  padding-left: 15rpx;
+}
+
+.fimgdx {
+  width: 27rpx;
+  height: 27rpx;
+  padding-left: 20rpx;
+}
+
+.ffd {
+  width: 100%;
+  /* padding-top: 40rpx; */
+}
+
+.ba {
+  width: 100%;
+}
+
+.er {
+  height: 20rpx;
+  width: 100%;
+  background-color: #f1f4f6;
+  /* H */
+}
+
+.yi {
+  height: 82rpx;
+  width: 670rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  /* background-color: red; */
+  margin-top: 30rpx;
+}
+
+.yizh {
+  padding-top: 15rpx;
+}
+
+.shm {
+  padding-top: 5rpx;
+}
+
+.gutximg {
+  width: 82rpx;
+  height: 82rpx;
+  border-radius: 50%;
+}
+
+.ftex {
+  font-size: 30rpx;
+  color: #333;
+}
+
+.xstext {
+  font-size: 20rpx;
+  color: #999;
+  padding-top: 10rpx;
+}
+
+.r {
+  float: right;
+}
+
+.l {
+  float: left;
+}
+
+.errpx {
+  margin-left: 20rpx;
+}
+
+.textcity {
+  font-size: 20rpx;
+  color: #036eb8;
+  margin-top: 5rpx;
+  margin-left: 50rpx;
+}
+
+.hhee {
+  height: auto;
+  background-color: #fff;
+}
+
+.df {
+  margin-bottom: 20rpx;
+  height: 70rpx;
+  width: 660rpx;
+  margin-left: 50rpx;
+  margin-right: 40rpx;
+  /* background-color: rebeccapurple; */
+  margin-top: -8rpx;
+}
+
+.eer {
+  width: 505rpx;
+  height: auto;
+  margin-left: 45rpx;
+  margin-right: 50rpx;
+  margin-top: 20rpx;
+  /* background-color: red; */
+}
+
+.dw {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 0rpx 5rpx;
+}
+
+.san {
+  width: 650rpx;
+  height: auto;
+  padding-left: 50rpx;
+  padding-right: 50rpx;
+  margin-top: 20rpx;
+  /* background-color: rebeccapurple; */
+}
+
+.ztkg {
+  font-size: 30rpx;
+  height: auto;
+  /* background-color: red; */
+}
+
+.hs {
+  color: #191919;
+  width: 100%;
+  word-break: break-all;
+}
+
+.hss {
+  color: #e4be29;
+  font-weight: bold;
+}
+
+.si {
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+}
+
+.yuan {
+  width: 28rpx;
+  height: 8rpx;
+}
+
+.dzdx {
+  width: 36rpx;
+  height: 32rpx;
+  padding-top: 10rpx;
+  margin-left: 100rpx;
+}
+
+.szjk {
+  font-size: 22rpx;
+  color: #333;
+  margin-left: 15rpx;
+  padding-top: 13rpx;
+}
+
+.erh {
+  margin-right: 20rpx;
+}
+
+.hx {
+  height: 40rpx;
+  width: 2rpx;
+  background-color: #4c4c4c;
+  margin-top: 15rpx;
+}
+
+.ffzhf {
+  background-color: #fff;
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 24rpx;
+  border: 0.5rpx solid #d70051;
+  border-radius: 27rpx;
+  color: #d70051;
+}
+
+/* HHHHHHHH */
+
+/* dan */
+
+.da {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+
+.yngdan {
+  width: 560rpx;
+  height: 915rpx;
+  background-color: #fff;
+  margin-left: 95rpx;
+  margin-right: 95rpx;
+  border-radius: 10rpx;
+  margin-top: 100rpx;
+}
+
+.quan_show {
+  display: block;
+}
+
+.quan_hidden {
+  display: none;
+}
+
+.sanshi {
+  font-size: 30rpx;
+  color: #333;
+  text-align: center;
+}
+
+.y-top {
+  padding-top: 55rpx;
+}
+
+.wo {
+  font-size: 26rpx;
+  color: #333;
+}
+
+.hye {
+  margin-top: 20rpx;
+  width: 460rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+
+/* 
+.sd{
+   background-color: #fff;
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border: 0.5rpx solid #eeeeee;
+  border-radius: 27rpx;
+} */
+
+.imgsd {
+  width: 62rpx;
+  height: 40rpx;
+  position: relative;
+  top: 15rpx;
+}
+
+.imwss {
+  width: 452rpx;
+  margin-left: 54rpx;
+  margin-right: 54rpx;
+  margin-top: 50rpx;
+}
+
+.imw {
+  width: 460rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  margin-top: 45rpx;
+}
+
+.imgzf {
+  width: 452rpx;
+  height: 165rpx;
+}
+
+.imgx {
+  width: 458rpx;
+  height: 176rpx;
+}
+
+.hyu {
+  background-color: #d70051;
+  width: 390rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 28rpx;
+  border: 0.5rpx solid #d70051;
+  border-radius: 35rpx;
+  color: #fff;
+}
+
+.qxx {
+  width: 34rpx;
+  height: 34rpx;
+  margin-top: 40rpx;
+  margin-right: 60rpx;
+}
+
+.hyer {
+  margin-top: 45rpx;
+  width: 460rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+
+.dds {
+  width: 390rpx;
+  margin-left: 85rpx;
+  margin-right: 85rpx;
+  margin-top: 35rpx;
+}
+
+.shiyi {
+  margin-top: 5rpx;
+  margin-bottom: 10rpx;
+  /* background-color: rebeccapurple; */
+  height: 56rpx;
+}
+
+.xiaotiao2 {
+  height: 2rpx;
+  width: 100%;
+  background-color: #f1f4f6;
+  margin-top: 20rpx;
+}
+
+/* YYYYYYYYY */
+
+.defx {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.defxjd {
+  width: 100%;
+  height: auto;
+  border-radius: 42rpx 42rpx 0rpx 0rpx;
+  background-color: #e5e5e5;
+}
+
+.deziti {
+  padding-top: 45rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  width: 670rpx;
+  height: auto;
+  font-size: 36rpx;
+  color: #0e0d0d;
+}
+
+.dezimg {
+  padding-top: 45rpx;
+  /* margin-left: 8rpx; */
+  height: auto;
+}
+
+.ss {
+  margin-left: 32rpx;
+}
+
+.imdedx {
+  width: 108rpx;
+  height: 108rpx;
+}
+
+.imgzit {
+  font-size: 20rpx;
+  color: #333;
+  width: 108rpx;
+  height: auto;
+  text-align: center;
+  padding-top: 20rpx;
+}
+
+.imgzitt {
+  font-size: 20rpx;
+  color: #333;
+  width: 108rpx;
+  height: auto;
+  text-align: center;
+  /* padding-top: 20rpx; */
+}
+
+.quxtop {
+  margin-top: 50rpx;
+}
+
+.qux {
+  width: 100%;
+  height: 98rpx;
+  font-size: 36rpx;
+  color: #333;
+  background-color: #fff;
+  line-height: 98rpx;
+  text-align: center;
+  border: 0rpx solid #f9f9f9;
+}
+
+/* YYYYYYYYYYY */
+
+/* button */
+
+.buttonn {
+  display: block;
+  padding: 0rpx;
+  margin: 0rpx;
+  border: none;
+  border-radius: 24rpx;
+  /* height: auto; */
+  height: 108rpx;
+  width: 108rpx;
+  font-size: 30rpx;
+  /* margin-left: 20rpx; */
+  background-color: #ffffff;
+}
+
+button[class="button"]:after {
+  border: 0;
+  border-radius: 0;
+}
+

@@ -1,0 +1,86 @@
+<!--pages/my/setup/hh/hh.wxml-->
+<view class='bc'>
+  <view>
+    <text bc_text>demo</text>
+  </view>
+  <view class='bc_2'>
+    <view>行排列</view>
+    <view style='display:flex; flex-direction:row;'>
+      <view class='flex_item green'></view>
+      <view class='flex_item red'></view>
+      <view class='flex_item blue'></view>
+    </view>
+  </view>
+  <view class='bc_2'>
+    <view>列排列</view>
+    <view style='display:flex; flex-direction:column;'>
+      <view class='flex_item green'></view>
+      <view class='flex_item red'></view>
+      <view class='flex_item blue'></view>
+    </view>
+  </view>
+  <view class='bc_2'>
+    <view>向左靠拢</view>
+    <view style='display:flex; flex-direction:row;justify-content:flex-start;'>
+      <view class='flex_item green'></view>
+      <view class='flex_item red'></view>
+      <view class='flex_item blue'></view>
+    </view>
+  </view>
+  <!-- <view class=”bc_2”>
+    <view>向右靠拢</view>
+    <view style=”display:flex; flex-direction:row;justify-content:flex-end;”>
+      <view class=’flex_item green’></view>
+      <view class=’flex_item red’></view>
+      <view class=’flex_item blue’></view>
+    </view>
+  </view> -->
+  <view class='bc_2'>
+    <view>左右居中</view>
+    <view style='display:flex; flex-direction:row;justify-content:center;'>
+      <view class='flex_item green'></view>
+      <view class='flex_item red'></view>
+      <view class='flex_item blue'></view>
+    </view>
+  </view>
+  <!-- <view class=”bc_2”>
+    <view>向左右靠拢，中间均匀分布</view>
+    <view style=”display:flex; flex-direction:row;justify-content:space-between;”>
+      <view class=’flex_item green’></view>
+      <view class=’flex_item red’></view>
+      <view class=’flex_item blue’></view>
+    </view>
+  </view>
+  <view class=”bc_2”>
+    <view>左右留空，中间均匀分布</view>
+    <view style=”display:flex; flex-direction:row;justify-content:space-around;”>
+      <view class=’flex_item green’></view>
+      <view class=’flex_item red’></view>
+      <view class=’flex_item blue’></view>
+    </view>
+  </view>
+  <view class=”bc_2”>
+    <view>向上靠拢</view>
+    <view style=”display:flex; flex-direction:row;align-items:flex-start; height:100px;”>
+      <view class=’flex_item green’></view>
+      <view class=’flex_item red’></view>
+      <view class=’flex_item blue’></view>
+    </view>
+  </view>
+  <view class=”bc_2”>
+    <view>向下靠拢</view>
+    <view style=”display:flex; flex-direction:row;align-items:flex-end; height:100px;”>
+      <view class=’flex_item green’></view>
+      <view class=’flex_item red’></view>
+      <view class=’flex_item blue’></view>
+    </view>
+  </view>
+  <view class=”bc_2”>
+    <view>上下居中</view>
+    <view style=”display:flex; flex-direction:row;align-items:center; height:100px;”>
+      <view class=’flex_item green’></view>
+      <view class=’flex_item red’></view>
+      <view class=’flex_item blue’></view>
+    </view>
+  </view> -->
+</view>
